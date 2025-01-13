@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+    font-weight:400, 600, 700 ;
+}
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-lightest: hsl(0, 0%, 20%);
+    --Grey-light: hsl(0, 0%, 12%);
+    --Grey: hsl(0, 0%, 8%);
+}
+body{
+    font-family: 'Inter', Courier, monospace;
+    font-size: 14px;
+    background-color: var(--Grey-light);
+    color: var(--White);
+}
+main{
+    background-color: var(--Grey);
+    margin: 0 10rem;
+    padding: 5px 15px;
+    text-align: center;
+    
+}
+.container{
+    background-color: var(--Grey-light); 
+    width: 20rem;
+    margin: 8rem auto;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    
+}
+.container-elements{
+    padding: 1rem 1rem;
+    
+}
+.container-elements p{
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+.container-elements div{
+    background-color: var(--Grey-lightest);
+    width: 15rem;
+    margin-top: 1rem;
+    padding: 10px 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+ .container-elements div:hover{
+    cursor: pointer;
+    background-color: var(--Green);
+    color: var(--Grey);
+    }
+.container .profile img{
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 2rem;
+}
+.profile{
+    padding-top: 2rem;
+}
+.profile span{
+    display: block;
+    padding: 5px 0px;
+
+}
+.profile #name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.profile #location{
+    color: var(--Green);
+    font-weight: 600;
+}
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
