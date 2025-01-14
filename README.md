@@ -33,9 +33,6 @@ Users should be able to:
  - How to use border-raduis property in CSS
  
  `border-raduis: 50%;
-
-
-
  `
 
 
